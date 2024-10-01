@@ -145,7 +145,7 @@ def remover_necessidade():
         messagebox.showinfo("Sucesso", "Necessidade removida com sucesso!")
         listar_necessidades()
     else:
-        messagebox.showwarning("Atenção", "Selecione uma necessidade para remover.")
+        messagebox.showwarning("Atenção", "Selecione uma necessidade para poder remover.")
 
 def visualizar_necessidades():
     top = Toplevel()
